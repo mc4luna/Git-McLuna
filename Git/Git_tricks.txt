@@ -1,4 +1,11 @@
-git init -- Este comando configura todas las herramientas que Git necesita para comenzar a rastrear los cambios realizados en el proyecto.
+git init        -- Este comando configura todas las herramientas que Git necesita para comenzar a rastrear los cambios realizados en el proyecto.
+git status      -- Me dice el estado de git, En la salida si se observa archivos en rojo debajo de los archivos sin seguimiento o (Untracked files) significa que Git ve el                            archivo, pero aún no ha comenzado a realizar un seguimiento de los cambios (git add).
+git add         -- Ayuda a agregar un archivo a el área de preparación, cuando se averigua el estado luego de agregar algo, se puede observar que Git indica los cambios que se van                    a confirmar con "nuevo archivo: nombre del archivo"en texto verde. Aquí Git nos dice que el archivo se agregó al área de preparación.
+git diff        -- Me indica que los cambios que se han realizado en un archivo en color verde y con un '+' al principio, despés de esto la idea es añadir estos mismos cambios en                    el área de preparación
+git commit      -- Este comando guarda de forma permanente el archivo en el repositorio enlazado, casi siempre viene acopañado de '-m' para poder usar un mensaje donde se explica                    el cambio realizado NOTA: El estandar para realizar commits es que Debe estar entre comillas, Escrito en tiempo presente y debe ser breve (50 caracteres o                          menos) cuando se usa -m
+git log         -- Me muestra la lista de los commits que he hecho al documento, aquí aparece autor, día y hora en el que se hizo los commits y el mensaje de cada uno de ellos                        NOTA: cuando se este leyendo los commits, se puede dirigir al final rápidamente con q y salir del apartado
+
+
 
 Git tiene este entorno de trabajo
 1. (Working Directory) Un directorio de trabajo: donde harás todo el trabajo: crear, editar, eliminar y organizar archivos, aquí es que empieza el git init
