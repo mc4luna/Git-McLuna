@@ -1,0 +1,9 @@
+Para usar git, se usa git bash en windows
+
+1. Para poder cambiar el nombre de usuario en todos los repositorios:
+  $ git config --global user.name "Mona Lisa"
+  $ git config --global user.name
+  
+2. Para poder cambiar el nombre de usuario en 1 repositorios:
+  $ git config user.name "Mona Lisa"
+  $ git config --global user.name
