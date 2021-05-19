@@ -1,0 +1,6 @@
+git init -- Este comando configura todas las herramientas que Git necesita para comenzar a rastrear los cambios realizados en el proyecto.
+
+Git tiene este entorno de trabajo
+1. (Working Directory) Un directorio de trabajo: donde harás todo el trabajo: crear, editar, eliminar y organizar archivos, aquí es que empieza el git init
+2. (A Staging Area) Un área de ensayo: donde enumerará los cambios que realice en el directorio de trabajo. Aquí se usa el git add
+3. (A Repository) Un repositorio: donde Git almacena permanentemente esos cambios como diferentes versiones del proyecto Aqui se usa el git commit
