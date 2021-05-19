@@ -7,3 +7,11 @@ Para usar git, se usa git bash en windows
 2. Para poder cambiar el nombre de usuario en 1 repositorios:
   $ git config user.name "Mona Lisa"
   $ git config --global user.name
+
+3. Para poder cambiar el nombre de usuario en todos los repositorios:
+  $ git config --global user.email "email@example.com"
+  $ git config --global user.email
+  
+4. Para poder cambiar el nombre de usuario en todos los repositorios:
+  $ git config user.email "email@example.com"
+  $ git config --global user.email
