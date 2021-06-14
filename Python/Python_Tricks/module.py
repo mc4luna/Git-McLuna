@@ -24,3 +24,10 @@ random_list = [random.randint(1,100) for i in range(101)]
 randomer_number = random.choice(random_list)
 
 
+#------------------- M = DECIMAL ------------------------
+from decimal import Decimal as ds
+
+suma_decimal_ds = ds('2.4') + ds('3.8')
+suma_decimal = 2.4 + 3.8
+
+print(suma_decimal_ds, suma_decimal)
