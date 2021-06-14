@@ -6,6 +6,8 @@
 #Ex: from module_name import object_name
 # Or import object_name
 
+# Using a package manager (like conda or pip3), 
+#you can install any modules available on the Python Package Index
 
 #------------------- M = RANDOM ------------------------
 # random  allows you to generate numbers or select items at random.
