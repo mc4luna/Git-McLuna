@@ -5,4 +5,4 @@ from ejemplo_de_clases_2 import always_three
 
 
 # Call your function below:
-always_three()
+print(always_three())
